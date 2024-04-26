@@ -1,8 +1,8 @@
-Expense Tracker
+**Expense Tracker**
 <br>
 A simple expense tracker that runs on the terminal.
 
-##How to Implement
+#How to Implement
 
 1. Clone the repository
 2. Run the following command in the terminal
@@ -10,5 +10,5 @@ A simple expense tracker that runs on the terminal.
 ```
 python3 xpense_tracker.py
 ```
-##Requirements
+#Requirements
 1. Python 3

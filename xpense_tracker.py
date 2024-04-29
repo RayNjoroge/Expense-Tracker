@@ -9,7 +9,7 @@ class Expense:
 class ExpenseTracker:
     def __init__(self):
         self.expenses = []
-    
+
     # Func to add expense
     def add_expense(self, expense):
         self.expenses.append(expense)
@@ -21,7 +21,7 @@ class ExpenseTracker:
             print("Expense removed successfully.")
         else:
             print("Invalid expense index.")
-    
+
     # Viewing expenses
     def view_expenses(self):
         if len(self.expenses) == 0:
@@ -39,7 +39,7 @@ class ExpenseTracker:
 
 def main():
     tracker = ExpenseTracker()
-    
+
     while True:
         print("\nExpense Tracker Menu: ")
         print("\n1. Add Expense")
@@ -49,7 +49,7 @@ def main():
         print("\n5. Exit")
         
         choice = input("Please enter your choice between (1-5): ")
-        
+
         if choice == "1":
             date = input("Enter the date (YYYY-MM-DD): ")
             description = input("Enter the description: ")
@@ -69,5 +69,6 @@ def main():
             break
         else:
             print("Invalid choice ☹. Please Try Again!")
+
 if __name__ == "__main__":
     main()
